@@ -1,0 +1,56 @@
+head{
+    text-align: center;
+}
+
+input{
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 50%;
+  padding: 10px;
+  
+  font-size: 16px;
+}
+.container {
+    background-color: #f44336;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+  .addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+
+  .addBtn:hover{
+    background-color: green;
+  }
+  .task{
+    background-color: green;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    justify-content: space-between;
+    width: 25%;
+    
+    font-size: 30px;
+  }
+  .delete{
+    background-color: #6583e5;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    float: right;
+  }
+ 
